@@ -12,7 +12,7 @@ section {
     >div {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: center;
         padding-bottom: 24px;
         gap: 16px;
     }
@@ -36,5 +36,4 @@ section {
     width: 200px;
     display: flex;
     justify-content: space-between;
-
 }

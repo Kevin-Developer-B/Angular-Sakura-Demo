@@ -14,10 +14,19 @@ section {
         height: 32px;
         width: 32px;
     }
+    >div div {
+        display: flex;
+        align-items: center;
+    }
 }
 
 button {
     cursor: pointer;
     background-color: transparent;
     border: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
