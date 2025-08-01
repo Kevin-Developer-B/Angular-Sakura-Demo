@@ -1,0 +1,26 @@
+h1 {
+    color: green;
+    font-size: 80px;
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+}
+
+div {
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./../../../../assets/img/hero_bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,40 @@
+section {
+    height: 500px;
+    background-image: url('./../../../../assets/img/section_our_menu_bg.jpg');
+    padding: 60px;
+
+    >h2 {
+        color: red;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    >div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 24px;
+        gap: 16px;
+    }
+
+    >div img {
+        width: 104px;
+        height: 104px;
+    }
+}
+
+.menu-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 24px;
+    gap: 16px;
+}
+
+.our-menu {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
